@@ -8,7 +8,13 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+
 <style>
+
 :root {
   --a: #a78bfa;
   --a2: #7c3aed;
@@ -967,6 +973,8 @@ async function sendMsg() {
     document.getElementById('sendBtn').disabled = false;
     document.querySelector('.topbar-title').innerHTML = `<div class="status-dot"></div> Ready`;
   }
+  Prism.highlightAll();
+
 }
 </script>
 </body>
