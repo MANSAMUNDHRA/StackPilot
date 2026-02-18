@@ -1,23 +1,16 @@
-"scripts": {
-  "start": "node server.js"
-}
-
 {
-  "name": "cronos",
+  "name": "uwucodecrafter",
   "version": "1.0.0",
-  "description": "A kawaii Python interpreter and code generation service that transforms regular Python into an uwu-fied programming language! Built during [Hackathon Name] to make coding more adorable.",
+  "description": "Code chat project",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@huggingface/inference": "^3.1.5",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.7",
-    "express": "^4.21.2"
+    "@huggingface/inference": "^4.13.12",
+    "body-parser": "^2.2.2",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
   }
 }
