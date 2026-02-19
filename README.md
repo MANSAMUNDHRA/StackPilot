@@ -22,7 +22,7 @@ Built this to understand how real AI-powered products actually work under the ho
 
 ## Live Demo
 
-> Deployed on a VPS. Server is live at: `https://api-uwu-aisoc.teamitj.tech`
+> Deployed link : https://stackpilot-q9tz.onrender.com
 
 ---
 
@@ -293,4 +293,5 @@ No `/src`, no `/routes`, no `/controllers` — kept intentionally flat. For a pr
 - [ ] WebSocket upgrade for bidirectional chat (future multi-agent use case)
 
 ---
+
 
